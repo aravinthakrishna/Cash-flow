@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Outer Glow Circle -->
+    <path
+        android:pathData="M100,100m-90,0a90,90 0 1,1 180,0a90,90 0 1,1 -180,0"
+        android:fillAlpha="0.15">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="100"
+                android:centerY="100"
+                android:gradientRadius="90"
+                android:type="radial">
+                <item android:color="#FF00E676" android:offset="0.0" />
+                <item android:color="#0000E676" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Outer Green Ring (Top Right) -->
+    <path
+        android:pathData="M100,20 C144.18,20 180,55.82 180,100 C180,122.5 170.5,142.8 155.3,157.1 C142,130 115,100 100,85 C115,60 135,40 100,20 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="100"
+                android:startY="20"
+                android:endX="180"
+                android:endY="100"
+                android:type="linear">
+                <item android:color="#FF10B981" android:offset="0.0" />
+                <item android:color="#FF00E676" android:offset="0.5" />
+                <item android:color="#FF047857" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Outer Green Ring (Bottom Left) -->
+    <path
+        android:pathData="M100,180 C55.82,180 20,144.18 20,100 C20,77.5 29.5,57.2 44.7,42.9 C58,70 85,100 100,115 C85,140 65,160 100,180 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="20"
+                android:startY="100"
+                android:endX="100"
+                android:endY="180"
+                android:type="linear">
+                <item android:color="#FF022C22" android:offset="0.0" />
+                <item android:color="#FF047857" android:offset="0.6" />
+                <item android:color="#FF059669" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Intertwined Center Flow Wave Ribbon -->
+    <path
+        android:pathData="M45,115 C55,95 75,80 100,80 C125,80 145,95 155,115 C145,135 125,150 100,150 C75,150 55,135 45,115 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="45"
+                android:startY="115"
+                android:endX="155"
+                android:endY="115"
+                android:type="linear">
+                <item android:color="#FF065F46" android:offset="0.0" />
+                <item android:color="#FF34D399" android:offset="0.5" />
+                <item android:color="#FF00E676" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Liquid Center Swirl Loop -->
+    <path
+        android:pathData="M60,110 C65,80 80,65 100,65 C125,65 140,85 130,110 C120,135 95,135 80,120 C70,110 60,110 60,110 Z"
+        android:strokeWidth="14"
+        android:strokeLineCap="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="60"
+                android:startY="65"
+                android:endX="140"
+                android:endY="135"
+                android:type="linear">
+                <item android:color="#FF6EE7B7" android:offset="0.0" />
+                <item android:color="#FF10B981" android:offset="0.5" />
+                <item android:color="#FF022C22" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+</vector>

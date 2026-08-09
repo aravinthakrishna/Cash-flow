@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <!-- DomainoTech 3D Folded 'D' Logo -->
+    <!-- Top Folded Charcoal Flap -->
+    <path android:pathData="M20,20 L80,20 C100,20 110,35 110,50 C110,65 95,75 75,75 L48,75 L20,48 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="20"
+                android:startY="20"
+                android:endX="110"
+                android:endY="75"
+                android:type="linear">
+                <item android:color="#FF4B5563" android:offset="0.0" />
+                <item android:color="#FF1F2937" android:offset="0.6" />
+                <item android:color="#FF111827" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Inner Fold Shadow Triangle -->
+    <path android:pathData="M20,20 L48,48 L20,48 Z" android:fillColor="#FF0F172A" />
+
+    <!-- Bottom Silver Metallic Ribbon -->
+    <path android:pathData="M20,75 L75,75 C95,75 110,85 110,98 C110,110 95,115 75,115 L20,115 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="20"
+                android:startY="75"
+                android:endX="110"
+                android:endY="115"
+                android:type="linear">
+                <item android:color="#FFF3F4F6" android:offset="0.0" />
+                <item android:color="#FFE5E7EB" android:offset="0.4" />
+                <item android:color="#FF9CA3AF" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+</vector>
